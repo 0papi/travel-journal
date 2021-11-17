@@ -1,0 +1,61 @@
+.travel {
+  margin: 0 auto;
+  background-color: var(--white-clr);
+  width: 550px;
+  max-width: 100%;
+  padding: 50px 30px;
+}
+
+.travel > .travel--items {
+  margin: 20px;
+}
+
+.travel--items {
+  display: flex;
+  align-items: center;
+}
+
+.travel--image {
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.travel--location {
+  font-size: 0.64rem;
+  line-height: 12px;
+
+  display: flex;
+  align-items: center;
+}
+
+.travel--location span {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.travel--location img {
+  margin-right: 4px;
+}
+
+.travel--location a {
+  color: var(--dark-gray);
+}
+
+.travel--title {
+  font-size: 1.5rem;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.travel--date {
+  font-size: 0.64rem;
+  line-height: 12px;
+  font-weight: 600;
+}
+
+.travel--description {
+  font-size: 0.64rem;
+  line-height: 150%;
+  color: var(--dark-text);
+}

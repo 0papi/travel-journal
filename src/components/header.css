@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 55px;
+  background-color: var(--light-red);
+  width: 550px;
+  max-width: 100%;
+}
+
+.header img {
+  margin-right: 7px;
+}
+
+.header p {
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: var(--white-clr);
+}
